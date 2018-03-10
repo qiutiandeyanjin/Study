@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ken</groupId>
+  <artifactId>TestDemo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>TestDemo</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-java</artifactId>
+          <version>LATEST</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-server</artifactId>
+          <version>LATEST</version>
+          <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>org.testng</groupId>
+          <artifactId>testng</artifactId>
+          <version>LATEST</version>
+          <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>org.uncommons</groupId>
+          <artifactId>reportng</artifactId>
+          <version>1.1.4</version>
+          <scope>test</scope>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.testng</groupId>
+                  <artifactId>testng</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+            <!--
+            scope标签中对应值的解释：
+                * compile，缺省值，适用于所有阶段，会随着项目一起发布。
+                * provided，类似 compile，期望 JDK、容器或使用者会提供这个依赖。如 servlet.jar。
+                * runtime，只在运行时使用，如 JDBC 驱动，适用运行和测试阶段。
+                * test，只在测试时使用，用于编译和运行测试代码。不会随项目发布。
+                * system，类似 provided，需要显式提供包含依赖的 jar， Maven 不会在 Repository 中查找它。
+             -->
+      <dependency>
+          <groupId>com.google.inject</groupId>
+          <artifactId>guice</artifactId>
+          <version>LATEST</version>
+          <scope>test</scope>
+      </dependency>
+  </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>res/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <workingDirectory>target/</workingDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

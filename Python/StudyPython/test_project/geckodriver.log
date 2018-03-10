@@ -1,0 +1,253 @@
+1514731462094	geckodriver	INFO	geckodriver 0.19.0
+1514731462101	geckodriver	INFO	Listening on 127.0.0.1:55787
+1514731463177	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.LyRcww630IBi"
+1514731463856	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:44:24.709 plugin-container[2704:168593] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514731465126	Marionette	INFO	Listening on port 55796
+1514731465136	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514731465187	Marionette	DEBUG	Register listener.js for window 2147483649
+1514731465229	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514731465405	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514731465405	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514731465713	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514731465798	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=2&pwd=s&cb=jQuery110208112960489144282_1514731465598&_=1514731465601, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=6&pwd=selen&cb=jQuery110208112960489144282_1514731465598&_=1514731465605, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=3&pwd=se&cb=jQuery110208112960489144282_1514731465598&_=1514731465602, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=4&pwd=sel&cb=jQuery110208112960489144282_1514731465598&_=1514731465603, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=7&pwd=seleni&cb=jQuery110208112960489144282_1514731465598&_=1514731465606, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=5&pwd=sele&cb=jQuery110208112960489144282_1514731465598&_=1514731465604, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=9&pwd=selenium&cb=jQuery110208112960489144282_1514731465598&_=1514731465608, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=25393_1448_19034_21115_17001_25177_22160&csor=8&pwd=seleniu&cb=jQuery110208112960489144282_1514731465598&_=1514731465607, line 1: TypeError: jQuery110208112960489144282_1514731465598 is not a function
+1514731466119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514731629083	geckodriver	INFO	geckodriver 0.19.0
+1514731629086	geckodriver	INFO	Listening on 127.0.0.1:55966
+1514731630154	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.uDlm6QQQY1zj"
+1514731630564	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:47:11.299 plugin-container[2734:171658] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514731631651	Marionette	INFO	Listening on port 55975
+1514731631709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514731631754	Marionette	DEBUG	Register listener.js for window 2147483649
+1514731631784	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514731632338	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514731632338	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514731632701	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514731632915	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1514731633240	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514732008846	geckodriver	INFO	geckodriver 0.19.0
+1514732008850	geckodriver	INFO	Listening on 127.0.0.1:56321
+1514732009906	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.bAx9brRqBYpF"
+1514732010316	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:53:31.013 plugin-container[2784:178311] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732011395	Marionette	INFO	Listening on port 56330
+1514732011453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732011499	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732011512	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732011672	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732011672	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732011909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732012053	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=2&pwd=s&cb=jQuery11020639935998625172_1514732011827&_=1514732011830, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=3&pwd=se&cb=jQuery11020639935998625172_1514732011827&_=1514732011831, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=1&cb=jQuery11020639935998625172_1514732011827&_=1514732011829, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=7&pwd=seleni&cb=jQuery11020639935998625172_1514732011827&_=1514732011835, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=4&pwd=sel&cb=jQuery11020639935998625172_1514732011827&_=1514732011832, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=6&pwd=selen&cb=jQuery11020639935998625172_1514732011827&_=1514732011834, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=5&pwd=sele&cb=jQuery11020639935998625172_1514732011827&_=1514732011833, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=9&pwd=selenium&cb=jQuery11020639935998625172_1514732011827&_=1514732011837, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1431_24566_21105_18559_17001_25438_25177&csor=8&pwd=seleniu&cb=jQuery11020639935998625172_1514732011827&_=1514732011836, line 1: TypeError: jQuery11020639935998625172_1514732011827 is not a function
+1514732012397	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514732062204	geckodriver	INFO	geckodriver 0.19.0
+1514732062208	geckodriver	INFO	Listening on 127.0.0.1:56470
+1514732063267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.zF8GnrNJNP3G"
+1514732063673	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:54:24.449 plugin-container[2809:179828] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732065100	Marionette	INFO	Listening on port 56479
+1514732065133	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732065180	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732065199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732065396	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732065396	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732065648	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732065827	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=3&pwd=se&cb=jQuery11020530838871513737_1514732065559&_=1514732065563, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=8&pwd=seleniu&cb=jQuery11020530838871513737_1514732065559&_=1514732065568, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=4&pwd=sel&cb=jQuery11020530838871513737_1514732065559&_=1514732065564, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=9&pwd=selenium&cb=jQuery11020530838871513737_1514732065559&_=1514732065569, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=6&pwd=selen&cb=jQuery11020530838871513737_1514732065559&_=1514732065566, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=7&pwd=seleni&cb=jQuery11020530838871513737_1514732065559&_=1514732065567, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=25367_1458_21111_25439_25178&csor=5&pwd=sele&cb=jQuery11020530838871513737_1514732065559&_=1514732065565, line 1: TypeError: jQuery11020530838871513737_1514732065559 is not a function
+1514732066154	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1514732110796	geckodriver	INFO	geckodriver 0.19.0
+1514732110800	geckodriver	INFO	Listening on 127.0.0.1:56627
+1514732111861	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.eN3hky19mfpB"
+1514732112254	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:55:12.974 plugin-container[2834:181592] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732113375	Marionette	INFO	Listening on port 56636
+1514732113421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732113466	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732113483	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732114106	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732114106	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732114910	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732115935	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1514732116266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514732169941	geckodriver	INFO	geckodriver 0.19.0
+1514732169945	geckodriver	INFO	Listening on 127.0.0.1:56789
+1514732171003	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.O0k66jhXbOS7"
+1514732171412	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:56:12.122 plugin-container[2860:183113] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732172477	Marionette	INFO	Listening on port 56798
+1514732172572	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732172615	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732172627	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732173390	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732173390	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732174374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732174973	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1514732175289	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514732245654	geckodriver	INFO	geckodriver 0.19.0
+1514732245658	geckodriver	INFO	Listening on 127.0.0.1:56983
+1514732246718	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.t4pKc1ETGJh3"
+1514732247124	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:57:27.840 plugin-container[2901:185486] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732248239	Marionette	INFO	Listening on port 56992
+1514732248273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732248316	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732248335	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732249270	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732249270	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732250504	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732251003	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1514732251325	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1514732311908	geckodriver	INFO	geckodriver 0.19.0
+1514732311912	geckodriver	INFO	Listening on 127.0.0.1:57141
+1514732312969	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.avkze6CDHEoc"
+1514732313401	Marionette	INFO	Enabled via --marionette
+2017-12-31 22:58:34.113 plugin-container[2929:187260] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514732314515	Marionette	INFO	Listening on port 57150
+1514732314623	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514732314669	Marionette	DEBUG	Register listener.js for window 2147483649
+1514732314689	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514732315107	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514732315107	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1514732315851	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1514732317726	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1514732318046	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515680722864	geckodriver	INFO	geckodriver 0.19.0
+1515680722873	geckodriver	INFO	Listening on 127.0.0.1:61064
+1515680723964	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.loJlTSpm9GpU"
+1515680724747	Marionette	INFO	Enabled via --marionette
+2018-01-11 22:25:25.681 plugin-container[6113:577275] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515680726213	Marionette	INFO	Listening on port 61073
+1515680726241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515680726746	Marionette	DEBUG	Register listener.js for window 2147483649
+1515680726761	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515680728280	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515680728280	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1515680742751	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1515680742789	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1432_21101_17001_20927&csor=2&pwd=s&cb=jQuery110202786163353253064_1515680742566&_=1515680742568, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1432_21101_17001_20927&csor=1&cb=jQuery110202786163353253064_1515680742566&_=1515680742567, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1432_21101_17001_20927&csor=3&pwd=se&cb=jQuery110202786163353253064_1515680742566&_=1515680742569, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1432_21101_17001_20927&csor=4&pwd=sel&cb=jQuery110202786163353253064_1515680742566&_=1515680742570, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1432_21101_17001_20927&csor=6&pwd=selen&cb=jQuery110202786163353253064_1515680742566&_=1515680742572, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1432_21101_17001_20927&csor=5&pwd=sele&cb=jQuery110202786163353253064_1515680742566&_=1515680742571, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1432_21101_17001_20927&csor=7&pwd=seleni&cb=jQuery110202786163353253064_1515680742566&_=1515680742573, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1432_21101_17001_20927&csor=8&pwd=seleniu&cb=jQuery110202786163353253064_1515680742566&_=1515680742574, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=1432_21101_17001_20927&csor=9&pwd=selenium&cb=jQuery110202786163353253064_1515680742566&_=1515680742575, line 1: TypeError: jQuery110202786163353253064_1515680742566 is not a function
+1515680743119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515734640187	geckodriver	INFO	geckodriver 0.19.0
+1515734640193	geckodriver	INFO	Listening on 127.0.0.1:63554
+1515734641413	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.15zVJjneuWcY"
+1515734642486	Marionette	INFO	Enabled via --marionette
+2018-01-12 13:24:03.475 plugin-container[6644:659898] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515734644022	Marionette	INFO	Listening on port 63565
+1515734644051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515734644102	Marionette	DEBUG	Register listener.js for window 2147483649
+1515734644132	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515734644473	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515734644473	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1515734644701	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1515734644740	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=2&pwd=s&cb=jQuery110205673980035191479_1515734644633&_=1515734644635, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=1&cb=jQuery110205673980035191479_1515734644633&_=1515734644634, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=3&pwd=se&cb=jQuery110205673980035191479_1515734644633&_=1515734644636, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=4&pwd=sel&cb=jQuery110205673980035191479_1515734644633&_=1515734644637, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=6&pwd=selen&cb=jQuery110205673980035191479_1515734644633&_=1515734644639, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=5&pwd=sele&cb=jQuery110205673980035191479_1515734644633&_=1515734644638, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=7&pwd=seleni&cb=jQuery110205673980035191479_1515734644633&_=1515734644640, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=9&pwd=selenium&cb=jQuery110205673980035191479_1515734644633&_=1515734644642, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1435_13289_21110_17001_20719&csor=8&pwd=seleniu&cb=jQuery110205673980035191479_1515734644633&_=1515734644641, line 1: TypeError: jQuery110205673980035191479_1515734644633 is not a function
+1515734645052	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516976690760	geckodriver	INFO	geckodriver 0.19.0
+1516976690770	geckodriver	INFO	Listening on 127.0.0.1:50003
+1516976691869	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.TrMGjqfZtsZv"
+1516976692650	Marionette	INFO	Enabled via --marionette
+2018-01-26 22:24:53.640 plugin-container[5380:68544] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516976694164	Marionette	INFO	Listening on port 50012
+1516976694259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516976694304	Marionette	DEBUG	Register listener.js for window 2147483649
+1516976694317	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516976694575	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516976694575	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1516976694980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1516976695090	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=3&pwd=se&cb=jQuery110208101586591620402_1516976694728&_=1516976694732, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=5&pwd=sele&cb=jQuery110208101586591620402_1516976694728&_=1516976694734, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=4&pwd=sel&cb=jQuery110208101586591620402_1516976694728&_=1516976694733, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=2&pwd=s&cb=jQuery110208101586591620402_1516976694728&_=1516976694731, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=6&pwd=selen&cb=jQuery110208101586591620402_1516976694728&_=1516976694735, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=7&pwd=seleni&cb=jQuery110208101586591620402_1516976694728&_=1516976694736, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=1&cb=jQuery110208101586591620402_1516976694728&_=1516976694730, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=9&pwd=selenium&cb=jQuery110208101586591620402_1516976694728&_=1516976694738, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=25774_1461_13548_21122_20718&csor=8&pwd=seleniu&cb=jQuery110208101586591620402_1516976694728&_=1516976694737, line 1: TypeError: jQuery110208101586591620402_1516976694728 is not a function
+1516976695416	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516977003081	geckodriver	INFO	geckodriver 0.19.0
+1516977003085	geckodriver	INFO	Listening on 127.0.0.1:50220
+1516977004167	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/hm/y55n057j3bqblsjcdrbvpwj40000gn/T/rust_mozprofile.EUQfRRlzu1bH"
+1516977004621	Marionette	INFO	Enabled via --marionette
+2018-01-26 22:30:05.330 plugin-container[6041:75029] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516977005699	Marionette	INFO	Listening on port 50227
+1516977005726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516977005772	Marionette	DEBUG	Register listener.js for window 2147483649
+1516977005814	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516977006160	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516977006162	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1516977006588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1516977006676	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1441_21084_17001_20929&csor=2&pwd=s&cb=jQuery110203366117128037537_1516977006371&_=1516977006374, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1441_21084_17001_20929&csor=1&cb=jQuery110203366117128037537_1516977006371&_=1516977006373, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1441_21084_17001_20929&csor=7&pwd=seleni&cb=jQuery110203366117128037537_1516977006371&_=1516977006379, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1441_21084_17001_20929&csor=8&pwd=seleniu&cb=jQuery110203366117128037537_1516977006371&_=1516977006380, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium2&json=1&p=3&sid=1441_21084_17001_20929&csor=9&pwd=selenium&cb=jQuery110203366117128037537_1516977006371&_=1516977006381, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1441_21084_17001_20929&csor=6&pwd=selen&cb=jQuery110203366117128037537_1516977006371&_=1516977006378, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1441_21084_17001_20929&csor=3&pwd=se&cb=jQuery110203366117128037537_1516977006371&_=1516977006375, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1441_21084_17001_20929&csor=5&pwd=sele&cb=jQuery110203366117128037537_1516977006371&_=1516977006377, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1441_21084_17001_20929&csor=4&pwd=sel&cb=jQuery110203366117128037537_1516977006371&_=1516977006376, line 1: TypeError: jQuery110203366117128037537_1516977006371 is not a function
+1516977007008	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
