@@ -4,7 +4,6 @@ from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from sign.models import Event, Guest
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from sign.forms import AddEventForm, AddGuestForm
 
 
 # Create your views here.
@@ -15,20 +14,20 @@ def index(request):
 # 登录动作
 def login_action(request):
     if request.method == "POST":
-        login_username = request.POST.get("username")
-        login_password = request.POST.get("password")
+        login_username = request.POST.get("username", "")
+        login_password = request.POST.get("password", "")
         if login_username == '' or login_password == '':
             return render(request, "index.html", {"error": "username or password null"})
+
+        user = auth.authenticate(username=login_username, password=login_password)
+        if user is not None:
+            auth.login(request, user)  # 登录
+            response = HttpResponseRedirect('/event_manage/')
+            # response.set_cookie('user', username, 3600)     # 添加浏览器cookie
+            request.session['user'] = login_username  # 将session信息记录到浏览器
+            return response
         else:
-            user = auth.authenticate(username=login_username, password=login_password)
-            if user is not None:
-                auth.login(request, user)  # 登录
-                response = HttpResponseRedirect('/event_manage/')
-                # response.set_cookie('user', username, 3600)     # 添加浏览器cookie
-                request.session['user'] = login_username  # 将session信息记录到浏览器
-                return response
-            else:
-                return render(request, 'index.html', {'error': 'username or password error!'})
+            return render(request, 'index.html', {'error': 'username or password error!'})
     else:
         return render(request, "index.html")
 
@@ -53,40 +52,12 @@ def search_name(request):
                                                  "events": event_list})
 
 
-# 添加发布会
-def add_event(request):
-    username = request.session.get('user', '')
-
-    if request.method == 'POST':
-        form = AddEventForm(request.POST)  # form包含提交的数据
-        if form.is_valid():
-            name = form.cleaned_data['name']
-            address = form.cleaned_data['address']
-            limit = form.cleaned_data['limit']
-            start_time = form.cleaned_data['start_time']
-            status = form.cleaned_data['status']
-            if status is True:
-                status = 1
-            else:
-                status = 0
-
-            Event.objects.create(name=name, limit=limit, address=address, status=status,
-                                 start_time=start_time)
-            return render(request, "add_event.html", {"user": username,
-                                                      "form": form,
-                                                      "success": "添加发布会成功！"})
-    else:
-        form = AddEventForm
-
-    return render(request, "add_event.html", {"user": username, "form": form})
-
-
 # 嘉宾管理
 @login_required
 def guest_manage(request):
     username = request.session.get('user', '')
     guest_list = Guest.objects.all()
-    pageinator = Paginator(guest_list, 3)
+    pageinator = Paginator(guest_list, 2)
     page = request.GET.get('page')
     try:
         contacts = pageinator.page(page)
@@ -99,44 +70,18 @@ def guest_manage(request):
     return render(request, "guest_manage.html", {"user": username, "guests": contacts})
 
 
-# 添加嘉宾
-def add_guest(request):
-    username = request.session.get("user", "")
-
-    if request.method == 'POST':
-        form = AddGuestForm(request.POST)
-
-        if form.is_valid():
-            event = form.cleaned_data('event')
-            realname = form.cleaned_data('realname')
-            phone = form.cleaned_data('phone')
-            email = form.cleaned_data('email')
-            sign = form.cleaned_data('sign')
-            if sign is True:
-                sign = 1
-            else:
-                sign = 0
-
-            Guest.objects.create(event=event, realname=realname, phone=phone, email=email, sign=sign)
-            return render(request, "add_guest.html", {"user": username,
-                                                      "form": form,
-                                                      "success": "添加嘉宾成功！"})
-    else:
-        form = AddGuestForm
-    return render(request, "add_guest.html", {"user": username, "form": form})
-
-
 # 嘉宾搜索
 @login_required
 def search_phone(request):
     username = request.session.get('user', '')
     new_search_phone = request.GET.get("phone", "")
-    guests = Guest.objects.filter(phone__contains=new_search_phone)
+    search_name_bytes = new_search_phone.encode(encoding="utf-8")
+    guests = Guest.objects.filter(phone__contains=search_name_bytes)
 
     if len(guests) == 0:
         return render(request, "guest_manage.html", {"user": username,
                                                      "hint": "根据输入的手机号，查询结果为空！"})
-    pageinator = Paginator(guests, 5)
+    pageinator = Paginator(guests, 10)
     page = request.GET.get('page')
     try:
         contacts = pageinator.page(page)
@@ -155,7 +100,20 @@ def search_phone(request):
 @login_required
 def sign_index(request, eid):
     event = get_object_or_404(Event, id=eid)
-    return render(request, 'sign_index.html', {'event': event})
+    guest_list = Guest.objects.filter(event_id=eid)           # 签到人数
+    sign_list = Guest.objects.filter(sign="1", event_id=eid)   # 已签到数
+    guest_data = str(len(guest_list))
+    sign_data = str(len(sign_list))
+    return render(request, 'sign_index.html', {'event': event,
+                                               'guest': guest_data,
+                                               'sign': sign_data})
+
+
+# 前端签到页面
+def sign_index2(request, eid):
+    event_name = get_object_or_404(Event, id=eid)
+    return render(request, 'sign_index2.html', {'eventId': eid,
+                                                'eventNanme': event_name})
 
 
 # 签到动作
