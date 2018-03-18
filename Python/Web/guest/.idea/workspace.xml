@@ -1,120 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0be3e9f7-d9e6-4f32-bf7d-96935603a8ea" name="Default" comment="add">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/changelists.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/dashboard.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/fonts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/forms.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/rtl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/css/widgets.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/fonts/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/fonts/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/calendar-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/gis/move_vertex_off.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/gis/move_vertex_on.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-addlink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-alert.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-calendar.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-changelink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-clock.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-deletelink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-no.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-unknown-alt.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-unknown.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/icon-yes.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/inline-delete.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/search.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/selector-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/sorting-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/tooltag-add.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/img/tooltag-arrowright.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/SelectBox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/SelectFilter2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/actions.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/cancel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/change_form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/collapse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/collapse.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/inlines.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/inlines.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/jquery.init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/popup_response.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/prepopulate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/prepopulate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/prepopulate_init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/timeparse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/urlify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/xregexp/xregexp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/css/draw_results.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/css/theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/404error.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-bottom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-left-bottom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-left-center.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-right-bottom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-right-top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg-top-center.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/cent.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/draw_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/erro_text.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/mx4.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/selected.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/signed-blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/signed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/image/sign/yes.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/js/conference_sign.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/js/jquery-1.10.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/static/js/jquery-1.10.2.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/templates/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sign/templates/sign_index2.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" readonly="true" id="0be3e9f7-d9e6-4f32-bf7d-96935603a8ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/guest/settings.py" afterPath="$PROJECT_DIR$/guest/settings.py" />
-      <change beforePath="$PROJECT_DIR$/guest/urls.py" afterPath="$PROJECT_DIR$/guest/urls.py" />
-      <change beforePath="$PROJECT_DIR$/sign/__init__.py" afterPath="$PROJECT_DIR$/sign/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/sign/admin.py" afterPath="$PROJECT_DIR$/sign/admin.py" />
-      <change beforePath="$PROJECT_DIR$/sign/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/sign/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.css" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.css.map" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/sign/static/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/sign/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/sign/static/bootstrap/js/bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/js/jquery-1.12.4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sign/static/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/sign/static/bootstrap/js/npm.js" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/add_event.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/base.html" afterPath="$PROJECT_DIR$/sign/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/event_manage.html" afterPath="$PROJECT_DIR$/sign/templates/event_manage.html" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/guest_manage.html" afterPath="$PROJECT_DIR$/sign/templates/guest_manage.html" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/index.html" afterPath="$PROJECT_DIR$/sign/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/sign/templates/sign_index.html" afterPath="$PROJECT_DIR$/sign/templates/sign_index.html" />
-      <change beforePath="$PROJECT_DIR$/sign/views.py" afterPath="$PROJECT_DIR$/sign/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -130,7 +18,28 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest_manage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sign/templates/guest_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -163,8 +72,8 @@
         <option value="$PROJECT_DIR$/sign/templates/404.html" />
         <option value="$PROJECT_DIR$/guest/urls.py" />
         <option value="$PROJECT_DIR$/sign/templates/event_manage.html" />
-        <option value="$PROJECT_DIR$/sign/templates/guest_manage.html" />
         <option value="$PROJECT_DIR$/sign/views.py" />
+        <option value="$PROJECT_DIR$/sign/templates/guest_manage.html" />
       </list>
     </option>
   </component>
@@ -222,7 +131,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,12 +145,18 @@
             </path>
             <path>
               <item name="guest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,45 +338,39 @@
       <option name="project" value="LOCAL" />
       <updated>1519491065026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Study">
+      <created>1521124607062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521124607062</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27932286" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27932286" sideWeight="0.49713877" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26680973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28053203" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26323318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26680973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +384,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add Study" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -487,6 +396,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,6 +411,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,6 +433,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
           <caret line="45" column="71" lean-forward="false" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,6 +451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,6 +473,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,6 +495,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
           <caret line="45" column="71" lean-forward="true" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,6 +513,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,19 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sign/templates/add_event.html" />
     <entry file="file://$PROJECT_DIR$/sign/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,13 +711,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign/templates/guest_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#885#891#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,6 +721,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="114" column="60" lean-forward="false" selection-start-line="114" selection-start-column="60" selection-end-line="114" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,6 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,6 +753,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/templates/guest_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding />
         </state>
       </provider>
