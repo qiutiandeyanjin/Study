@@ -1,0 +1,5 @@
+[
+  "test_login.py::LoginTest_0::test_login",
+  "test_login.py::LoginTest_1::test_login",
+  "test_login.py::LoginTest_2::test_login"
+]
