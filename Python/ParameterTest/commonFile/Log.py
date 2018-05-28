@@ -10,6 +10,7 @@ Describe    : logging config
 import datetime
 import logging
 import os
+import sys
 import threading
 
 from commonFile import getDir
@@ -42,6 +43,10 @@ class Log:
                                       datefmt="%a, %b %Y %H:%M:%S")
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
+
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setFormatter(formatter)
+        self.logger.addHandler(console_handler)
 
     def get_logger(self):
         return self.logger
